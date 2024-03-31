@@ -1,0 +1,27 @@
+svg 
+ view box 
+ fill
+
+content-fluid
+
+mentain containers
+
+
+
+
+div class="d-flex justify-content-start">
+          <button
+            class="btn-list-icon"
+            type="button"
+          >
+          <!-- data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+          aria-label="Toggle navigation" -->
+
+            <span  class="list-icon"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg></span>
+          </button>
+          <a id="ytlogo" class="navbar-brand" href="#"><img class="style-scope ytd-yoodle-renderer" src="https://www.gstatic.com/youtube/img/promos/growth/e325cb98c12757338cdf04af5bd196a844ebbd81e98bdafd3632ff6f5bf8fab6_244x112.webp" alt="Anime in action">
+        </div>

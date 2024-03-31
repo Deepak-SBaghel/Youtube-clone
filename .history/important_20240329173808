@@ -1,0 +1,11 @@
+svg 
+ view box 
+ fill
+
+content-fluid
+
+mentain containers
+
+add m-0 and p-0 for every container .
+
+make a extra div inside if u want ro use podition fixed without any poiblem

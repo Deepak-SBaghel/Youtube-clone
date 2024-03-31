@@ -1,0 +1,31 @@
+svg 
+ view box 
+ fill
+
+content-fluid
+
+mentain containers
+
+add m-0 and p-0 for every container .
+
+onmousedown
+onmouswupandleave
+onmouseup
+grab
+grabbed
+
+make a extra div inside if u want to use podition fixed without any poiblem
+(this will help u save  time):
+
+if u see a problem , dont directly execute the solution 
+> look for the above /below div
+> look at the classes , id of that and above/below div
+> look 
+
+
+document.getElementById(gal1).getElementsByTagName('img');
+
+a:active{
+    /* when it is selected and moved */
+    background-color: rgb(255, 0, 0);
+}

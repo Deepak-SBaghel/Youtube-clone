@@ -1,0 +1,139 @@
+/* NAV BAR */
+#options {
+  list-style: none;
+  margin-top: 14px;
+  margin: 0px;
+  padding-left: 0px;
+}
+#carouselExample {
+  margin-top: 55px;
+  background-color: rgb(255, 0, 0);
+  padding-top: 60px;
+  /* max-width: 600px; */
+  width: 100%;
+}
+/* #popularsearch li{
+}
+#nav{
+} */
+
+/* CARDS */
+.card-img-top {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 150px;
+  border-radius: 15px;
+}
+.card {
+  background-color: rgba(0, 0, 0, 0.808);
+  border-radius: 10px;
+  color: white;
+  /* border-color: aqua; */
+}
+.card:hover {
+  border: 2px solid rgb(49, 49, 49);
+}
+.card-title {
+  margin: 0px;
+}
+.btn img {
+  height: 45px;
+  border-radius: 50%;
+  padding-bottom: 0px;
+}
+.card-body {
+  padding: 0px 0px;
+  align-items: center;
+}
+
+/*SIDE BAR */
+#sidebar1 {
+  width: 4.3rem;
+  margin-right: 20px;
+  position: sticky !important;
+}
+#sidebarul{
+  padding-top: 59px;
+}
+.sidebarli:hover {
+  background-color: rgb(82, 79, 79);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.text-tiny {
+  font-size: 12px;
+  color: white;
+}
+
+#sidebar2 {
+  display: none;
+}
+#sidebar2div{
+  height: 47%;
+}
+#sidebar2 ul li div ul li a:hover {
+  color: rgb(201, 33, 33);
+  background-color: rgb(97, 97, 97);
+}
+.topics li:hover {
+  background-color: rgba(85, 84, 84, 0.356);
+  border-radius: 10px;
+}
+.sidebaricon {
+  border-radius: 50%;
+}
+
+
+ 
+/* width */
+#sidebar2::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+#sidebar2::-webkit-scrollbar-track {
+  background: #ff0000;
+}
+
+/* Handle */
+#sidebar2::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+#sidebar2::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+/* NAV BAR */
+#ytlogo img {
+  height: 50px;
+  width: 125px;
+}
+#list-icon:hover {
+  cursor: pointer;
+}
+.btn-list-icon:hover {
+  background-color: rgba(77, 76, 76, 0.836);
+  border: 1px solid black;
+  border-radius: 50%;
+}
+#search_input {
+  padding-left: 23px;
+  color: white;
+  border-radius: 17px 0px 0px 17px;
+}
+#search_input::placeholder {
+  color: rgb(102, 101, 101) !important;
+  opacity: 1;
+  width: 300px;
+}
+#search_btn {
+  border-radius: 0px 17px 17px 0px;
+}
+
+#logindata {
+  /* background-color: aqua ; */
+  display: none;
+}

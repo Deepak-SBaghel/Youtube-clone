@@ -1,0 +1,194 @@
+/* NAV BAR */
+#options {
+  list-style: none;
+  margin-top: 14px;
+  margin: 0px;
+  padding-left: 0px;
+}
+#carouselExample {
+  margin-top: 55px;
+  background-color: rgb(0, 0, 0);
+  padding-top: 60px;
+  /* max-width: 600px; */
+  /* width: 50%; */
+  /* right: 100px; */
+  position: relative;
+  max-width: fit-content;
+}
+#carouselExample > ul {
+  overflow: auto;
+  background: #000;
+  scroll-snap-type: x;
+  scroll-behavior: auto;
+}
+#carouselExample > ul li {
+  scroll-snap-type: none;
+}
+#carouselExample > ul li:hover {
+  background-color: rgba(20, 20, 20, 0.356);
+  cursor: pointer;
+  user-select: none;
+}
+.arrow {
+  background: #000;
+  border-radius: 10px;
+  /* border-radius: 50%; */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#options::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#options {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+  position: relative;
+  top: 3px;
+}
+.arrow:hover {
+  background-color: rgba(82, 81, 81, 0.356) !important;
+}
+
+/* CARDS */
+.card-img-top {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 150px;
+  border-radius: 15px;
+}
+.card {
+  background-color: rgba(0, 0, 0, 0.808);
+  border-radius: 10px;
+  color: white;
+  /* border-color: aqua; */
+}
+.card:hover {
+  border: 2px solid rgb(49, 49, 49);
+}
+.card-title {
+  margin: 0px;
+}
+.btn img {
+  height: 45px;
+  border-radius: 50%;
+  padding-bottom: 0px;
+}
+.card-body {
+  padding: 0px 0px;
+  align-items: center;
+}
+/* #cardswrapper {
+  max-width: 90rem;
+} */
+
+/*SIDE BAR */
+#sidebar1 {
+  width: 4.3rem;
+  margin-right: 20px;
+  position: sticky !important;
+}
+#sidebarul {
+  padding-top: 59px;
+}
+.sidebarli:hover {
+  background-color: rgba(85, 84, 84, 0.356);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.text-tiny {
+  font-size: 12px;
+  color: white;
+}
+
+#sidebar2 {
+  display: none;
+}
+#sidebar2div {
+  height: 47%;
+  width: 180px;
+}
+#sidebar2 ul li div ul li a:hover {
+  color: rgb(201, 33, 33);
+  background-color: rgb(97, 97, 97);
+}
+.topics li:hover {
+  background-color: rgba(85, 84, 84, 0.356);
+  border-radius: 10px;
+}
+.sidebaricon {
+  border-radius: 50%;
+}
+
+/* width */
+#sidebar2::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+#sidebar2::-webkit-scrollbar-track {
+  background: #ff0000;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#sidebar2div::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+#sidebar2div {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* NAV BAR */
+#ytlogo img {
+  height: 50px;
+  width: 125px;
+}
+#list-icon:hover {
+  cursor: pointer;
+}
+.btn-list-icon:hover {
+  background-color: rgba(77, 76, 76, 0.836);
+  border: 1px solid black;
+  border-radius: 50%;
+}
+#search_input {
+  padding-left: 23px;
+  color: white;
+  border-radius: 17px 0px 0px 17px;
+}
+#search_input::placeholder {
+  color: rgb(102, 101, 101) !important;
+  opacity: 1;
+  width: 300px;
+}
+
+#search_btn {
+  border-radius: 0px 17px 17px 0px;
+}
+
+#logindata {
+  /* background-color: aqua ; */
+  display: none;
+}
+
+/* body main */
+/* #bodymain{
+  width: fit-content;
+} */
+#cardsandnavbar2 {
+  width: 82.3vw;
+  margin: 0;
+}
